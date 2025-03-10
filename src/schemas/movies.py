@@ -3,6 +3,7 @@ from datetime import date
 from typing import List, Optional
 from typing import ClassVar
 
+
 class MovieDetailResponseSchema(BaseModel):
     id: int
     name: str
